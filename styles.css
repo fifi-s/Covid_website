@@ -1,6 +1,4 @@
-body{
-    
-}
+
 i{
     color: #6f42c1;
     font-size: 40px;
@@ -29,7 +27,6 @@ i{
 /* header */
 #header{
     background-color: rgba(111, 66, 193, 0.1);
-
 }
 
 .header-row{
@@ -59,7 +56,6 @@ i{
 .header-img {
     max-width: 100%;
     height: auto;
-   
 }
 
 /* Statistics */
@@ -67,14 +63,12 @@ i{
     background-color: white;
     margin: 0 130px;
     text-align: center;
-    
 }
 .stats-head{
     color: #6f42c1;
     font-weight: 900;
     font-size: 40px;
     padding-top: 70px;
-    
 }
 .stats-virus{
     color: #6f42c1;
@@ -157,7 +151,6 @@ i{
     text-align: center;
     height: 150px;
     padding: 50px;
-    
 }
 .tiny-icons{
     font-size: 20px;
@@ -177,7 +170,6 @@ i{
 }
 .wash-your-hands-card{
     bottom: 50px;
-    
 }
 
 /* Protection */
@@ -197,7 +189,6 @@ i{
     font-weight: 900;
     font-size: 40px;
     padding-bottom: 30px;
-    
 }
 .how-to-protect{
     padding-top: 100px;
@@ -259,8 +250,7 @@ i{
     box-shadow: rgba(0, 0, 0, 0.1) 0px 15px 30px 0px;
     padding: 30px;
     background: #fff;
-    display: flex;
-    
+    display: flex;  
 }
 .symptoms-image{
     max-width: 100%;
@@ -319,22 +309,19 @@ i{
     border-color: #533093;
     border-radius: 0;
     padding: 5px 15px;
-    margin-left: 110px;
-    
+    margin-left: 110px;  
 }
 .news-text{
     margin: 10px 0;
     font-size: 14px;
     text-align: center;
-    
 }
 .news-admin{
     color: rgb(204, 204, 204);
     padding-right: 30px;
 }
 .news-comment{
-    color: rgb(204, 204, 204);
-    
+    color: rgb(204, 204, 204);  
 }
 .news-info{
     text-align: center;
@@ -385,6 +372,271 @@ i{
     color: red;
     font-size: 15px;
 }
+
+
+/* Ipad size */
+@media screen and (max-width: 763px){
+    
+/* header */
+#header{
+    text-align: center;
+    height: 450px;
+    overflow: hidden;
+}
+.header-row{
+    position: relative;
+}
+.header-img-container{
+    position: absolute;
+    padding-top: 150px;
+}
+
+/* statistics */
+#statistics{
+    height: 600px;
+}
+#statistics .card-deck{
+    position: relative;
+}
+.up-card{
+    position: absolute;
+    top: 120px;
+    padding-left: 160px;
+}
+.down-card{
+    position: absolute;
+    top: 250px;
+    padding-left: 150px;
+}
+
+/* about */
+#about{
+    margin: 0;
+}
+.about-img{
+    width: 100%;
+    padding: 0 100px 0 140px;
+}
+.about-text{
+    text-align: left;
+    padding: 40px 0 0 150px;
+}
+
+/* ppts */
+#ppts{
+    padding: 0;
+}
+.ppts-row{
+    padding: 100px 0 40px 0;
+}
+.ppts-icons{
+    padding: 5px 0 0 100px;
+}
+.ppts-text{
+    padding-right: 420px;
+}
+
+/* prevention */
+#prevention{
+    padding: 40px 100px 100px;
+    position: relative;
+}
+.prevention-card .card{
+    border-radius: 20px;
+    width: 230px;
+}
+.stay-at-home-card{
+    padding-left: 50px;
+}
+.keep-social-distancing-card{
+    position: absolute;
+    padding: 50px 0 0 330px;
+}
+.wear-facemask-card{
+    padding-left: 50px;
+}
+.wash-your-hands-card{
+    position: absolute;
+    padding: 0 0 0 330px;
+    bottom: 0;
+}
+.prevent-col{
+    text-align: left;
+    padding: 40px 0 0 50px;
+}
+
+/* protection */
+.how-to-protect{
+    padding-left: 10px;
+}
+
+/* symptoms */
+.symptoms-content{
+    padding: 20px;
+    margin-left: 30px;
+}
+.symptoms-call{
+    padding: 20px 0 0 30px;
+    text-align: left;
+}
+.help-btn{
+    margin-left: 0;
+}
+
+/* News and Articles */
+#newsandarticles{
+    padding: 0;
+}
+.news-heading{
+    padding: 80px 120px 40px;
+}
+.news-image{
+    padding: 0 120px 0 140px;
+}
+.news-btn{
+    margin-left: 320px;
+}
+.news-info{
+    padding-left: 260px;
+}
+
+/* links */
+#links{
+    padding-bottom: 0;
+}
+.link-about-text-icons{
+    padding-left: 40px;
+}
+.link-col{
+    padding-left: 0;
+}
+
+/* copyright */
+#copyright{
+    padding: 0 150px 40px;
+}
+
+} 
+
+/* Iphone size */
+@media screen and (max-width: 500px){
+
+.navbar-brand{
+        padding-left: 0;
+    }
+.navbar-nav{
+        padding-right: 0;
+    }
+
+/* header */
+.header-row{
+    margin: 0;
+}
+
+/* statistics */
+#statistics{
+    margin: 0;
+}
+
+/* about */
+.about-img{
+    padding: 0 20px;
+}
+.about-text{
+    padding: 40px 0 0 30px;
+}
+
+/* ppts */
+.ppts-row{
+    padding: 100px 0 40px 0;
+}
+.ppts-icons{
+    padding-left: 20px;
+}
+.ppts-text{
+    padding-right: 250px;
+}
+
+/* prevention */
+#prevention{
+    padding: 40px 0;
+}
+.prevention-card .card{
+    width: 200px;
+}
+.keep-social-distancing-card{
+    padding: 50px 0 0 280px;
+}
+.wash-your-hands-card{
+    padding: 0 0 0 280px;
+}
+.prevent-col{
+    padding: 30px 0 50px 40px;
+}
+
+/* protection */
+#protection{
+    padding: 100px 0;
+}
+.protection-head{
+    padding: 0 30px;
+}
+.how-to-protect{
+    padding-left: 30px;
+}
+
+/* symptoms */
+#symptoms{
+    padding: 80px 0;
+}
+.symptoms-content{
+    margin: 0 30px;
+}
+.news-heading{
+    padding: 80px 0;
+}
+.news-image{
+    padding: 0 20px;
+}
+.news-btn{
+    margin-left: 180px;
+}
+.news-info{
+    padding-left: 130px;
+}
+
+/* links */
+#links{
+    padding: 130px 0 50px;
+}
+.link-about-text-icons{
+    padding-bottom: 50px ;
+}
+
+/* copyright */
+#copyright{
+    padding: 0 20px 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
 
 
    
